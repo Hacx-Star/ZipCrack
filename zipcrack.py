@@ -1,13 +1,15 @@
 #This Tool create by Hacx-Star
 import zipfile
 from tqdm import tqdm
-
+import pyfiglet
 import os
 from colorama import Fore
 
 os.system("clear")
 print(Fore.LIGHTYELLOW_EX)
-os.system("figlet Zip-Crack")
+###################
+a=pyfiglet.figlet_format("Zip-Crack")
+print(a)
 print("                             Hacx-Star")
 print()
 print("You Tube : https://youtube.com/channel/UCJn2-qHoPUSgWe2focJVeUQ")
