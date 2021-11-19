@@ -1,19 +1,23 @@
-#My name is Deepkul Roy
+#This Tool create by Hacx-Star
 import zipfile
 from tqdm import tqdm
-import colorama
+
 import os
-from colorama import Fore,Back,Style
-colorama.init()
+from colorama import Fore
+
 os.system("clear")
 print(Fore.LIGHTYELLOW_EX)
 os.system("figlet Zip-Crack")
-print("                             Deepkul Roy")
+print("                             Hacx-Star")
+print()
+print("You Tube : https://youtube.com/channel/UCJn2-qHoPUSgWe2focJVeUQ")
+print()
+print("github   : https://github.com/Hacx-Star")
 print()
 print(Fore.LIGHTGREEN_EX)
-a=input("ZIPFILE: ")
+a=input("ZIPFILE> ")
 print()
-b=input("WORD LIST: ")
+b=input("WORD LIST> ")
 print()
 zip_file = zipfile.ZipFile(a)
 t_words = len(list(open(b, "rb")))
